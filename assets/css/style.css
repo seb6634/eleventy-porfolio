@@ -295,7 +295,7 @@ textarea.form-control {
 .site-hero {
   position: relative;
   height: 100vh;
-  background-image: url("../images/backgrounds/pexels-pixabay-459653.png");
+  background-image: url("../images/backgrounds/pexels-pixabay-459653.jpeg");
   background-size: cover;
   background-position: center center;
   display: flex;
@@ -507,6 +507,7 @@ textarea.form-control {
   }
 }
 .site-project-header-content h1 {
+  text-align: center;
   font-size: 55px;
 }
 .site-project-header-content h1 span {
@@ -879,6 +880,7 @@ textarea.form-control {
   flex-wrap: wrap;
 }
 .site-about-company {
+  text-align: center;
   background: #eaa4a4;
   width: 40%;
   padding: 70px 38px;
@@ -1027,12 +1029,15 @@ textarea.form-control {
 }
 
 .site-contact {
-  padding: 150px 0 100px;
+  padding: 150px 0;
   background: #f7f9ff;
+  text-align: center;
+  height: 80vh;
 }
 @media (max-width: 575px) {
   .site-contact {
     padding: 120px 0 100px;
+    height: 90vh;
   }
 }
 .site-contact-title {
@@ -1047,7 +1052,7 @@ textarea.form-control {
   color: #eaa4a4;
 }
 .site-contact-form {
-  margin-top: 20px;
+  margin: 20px 20px 0 20px;
 }
 .site-contact-form h4 {
   font-weight: 300;
@@ -1124,7 +1129,11 @@ textarea.form-control {
     text-align: center;
     display: block;
   }
+  .arrow-container {
+    display: none !important;
+  }
 }
+
 .site-footer-widget-top img {
   margin-bottom: 20px;
 }

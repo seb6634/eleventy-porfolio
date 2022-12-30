@@ -4,7 +4,7 @@ hero:
   subTitle: ""
   title:
     firstPara: "Sébastien Gonzalez"
-    secondPara: "Dévelopeur Web"
+    secondPara: "Développeur Web"
   seeWorkBtn:
     text: "Mes projets"
     link: "#project"
@@ -14,7 +14,7 @@ hero:
 
 portfolio:
   subTitle: "mes projets"
-  title: "Quelques exemples de projets personnels et professionnels."
+  title: "Quelques exemples de mes projets personnels et professionnels."
   seeAllbtn:
     link: "portfolio"
     text: "PLUS D'EXEMPLE + "

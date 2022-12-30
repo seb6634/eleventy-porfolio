@@ -15,7 +15,9 @@
               </div>
               <div class="site-project-single-image">
                 <img src="{{featureImg1}}" alt="project image">
+                {% if featureImg2 %}
                 <img src="{{featureImg2}}" alt="project image">
+                {% endif %} 
               </div>
               {% if collections.portfolios %}
               {% set nextPost = collections.portfolios | getNextCollectionItem(page) %}
@@ -27,7 +29,7 @@
                   <img class="rev" src="/assets/images/to-top.svg" alt="next project">
                   <span class="link-area">
                     <span data-text="{{previousPost.data.title}}">
-                      Previous Project
+                      Projet précédent
                     </span>
                   </span>
                 </a>
@@ -36,7 +38,7 @@
                 <a href="{{nextPost.url}}">
                   <span class="link-area">
                     <span data-text="{{nextPost.data.title}}">
-                      Next Project
+                      Projet suivant
                     </span>
                   </span>
                   <img src="/assets/images/to-top.svg" alt="next project">
