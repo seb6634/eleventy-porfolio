@@ -1,0 +1,11 @@
+{
+  "heading": "Me contacter",
+  "submitBtn": {
+    "btnText": "Me contacter",
+    "btnLink": "contact"
+  },
+  "convBtn": {
+    "btnText": "Portfolio",
+    "btnLink": "portfolio"
+  }
+}
