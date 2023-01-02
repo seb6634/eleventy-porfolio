@@ -1,7 +1,7 @@
 {
   "navLogo": "/assets/images/logo.png",
   "navLinks": ["home", "about", "portfolio"],
-  "navTitle": ["acceuil", "à propos", "portfolio"],
+  "navTitle": ["accueil", "à propos", "portfolio"],
   "navBtnLink": "contact",
   "navBtnText": "Me contacter"
 }
